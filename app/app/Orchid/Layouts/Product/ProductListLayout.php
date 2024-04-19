@@ -6,6 +6,7 @@ use Orchid\Screen\Layouts\Table;
 use Orchid\Screen\TD;
 use App\Models\Product;
 use Orchid\Screen\Actions\Link;
+use Orchid\Screen\Layouts\Block;
 
 class ProductListLayout extends Table
 {
@@ -27,18 +28,13 @@ class ProductListLayout extends Table
     protected function columns(): iterable
     {
         return [
-            TD::make('id', 'Название')
+            TD::make('name', 'Название')
                 ->render(function ($product) {
                     if ($product->image()->exists())
-                        return '<img src="' . $product->image->image . '" style="width: 50px;">';
-                })
-                ->width('50px'),
-
-            TD::make('name', '')
-                ->render(function (Product $product) {
-                    return Link::make($product->name)
-                        ->route('product.edit', $product)
-                        ->render();
+                        return '<a href="' . route('product.edit', $product) . '">'
+                            . '<img src="' . $product->image->image . '" style="width: 50px;">'
+                            . '<span class="ps-3">' . $product->name . '</span>'
+                            . '</a>';
                 }),
 
             TD::make('price', 'Стоимость')
