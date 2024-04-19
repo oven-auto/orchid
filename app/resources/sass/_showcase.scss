@@ -1,0 +1,98 @@
+.showcase .card{
+    border: 0px;
+}
+.showcase .card .product-image{
+    transition: transform linear .15s;
+}
+
+.showcase .card-img-top{
+    width: 100%;
+}
+
+.showcase .card:hover .product-image{
+    transform: translateY(-.1in);
+}
+.showcase .product-content{
+    font-size: 14px;
+}
+.showcase .product-append{
+    background: $red;
+    text-decoration: none;
+    padding: 5px;
+    color: $white;
+    font-size: large;
+    font-weight: 600;
+    border-radius: $size15;
+    padding-left: $size15;
+    padding-right: $size15;
+    border: 0px;
+}
+.showcase .product-price{
+    font-weight: 600;
+    padding: 5px;
+    display: block;
+}
+.showcase .like{
+    background: $red;
+    font-size: large;
+    font-weight: 600;
+    border-radius: $size15;
+    padding: 5px;
+    padding-left: $size15;
+    padding-right: $size15;
+    color: $white;
+    z-index: 100;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.showcase .like:hover{
+    transform: scale(.95,.95);
+
+}
+
+.showcase .product-info{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    text-align: right;
+}
+.showcase .novelty{
+    background: $orange;
+    font-size: large;
+    font-weight: 600;
+    border-radius: $size15;
+    padding: 5px;
+    padding-left: $size15;
+    padding-right: $size15;
+    color: $white;
+    z-index: 100;
+}
+
+.showcase .leader{
+    background: $green;
+    font-size: large;
+    font-weight: 600;
+    border-radius: $size15;
+    padding: 5px;
+    padding-left: $size15;
+    padding-right: $size15;
+    color: $white;
+    z-index: 100;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.showcase .card-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.container-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}

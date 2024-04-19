@@ -1,0 +1,108 @@
+version: "3.8"
+
+networks:
+  bl-general:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.190.0/24"
+  bl-database:
+
+services:  
+  bl-nginx:
+    container_name: bl-nginx
+    build:
+      context: ./docker
+      dockerfile: nginx.docker
+    networks: 
+      bl-general:
+        ipv4_address: 172.16.190.10
+    volumes:
+    - ./docker/nginx:/etc/nginx/conf.d
+    - ./docker/nginx/logs:/var/log/nginx/
+    - ./app/:/var/www
+    ports:
+    - "8090:80"
+    tty: true
+    
+
+  bl-fphp:
+    container_name: bl-fphp
+    build:
+      context: ./
+      dockerfile: docker/php-fpm.docker
+    networks: 
+      bl-general:
+        ipv4_address: 172.16.190.11
+      bl-database:
+    volumes:
+      - ./app/:/var/www
+      - ./docker/php/upload.ini:/usr/local/etc/php/conf.d/uploads.ini
+    environment:
+      - "UPLOAD_LIMIT=20M"
+      - "DB_PORT=3306"
+      - "DB_HOST=bl-mysql"
+    tty: true
+
+  bl-cphp:
+    container_name: bl-cphp
+    build:
+      context: ./
+      dockerfile: docker/php-cli.docker
+    networks: 
+      bl-general:
+        ipv4_address: 172.16.190.12
+      bl-database:
+    volumes:
+      - ./app/:/var/www
+    environment:
+      - "UPLOAD_LIMIT=20M"
+      - "DB_PORT=3306"
+      - "DB_HOST=bl-mysql"
+    tty: true
+
+  bl-node:
+    container_name: bl-node
+    networks: 
+      bl-general:
+        ipv4_address: 172.16.190.14
+    build:
+      context: ./
+      dockerfile: docker/node.docker
+    volumes:
+      - ./app/:/var/www
+    ports:
+        - "5173:5173"
+    tty: true
+
+  bl-mysql:
+    container_name: bl-mysql
+    image: mysql:5.7
+    command: --sql_mode="ONLY_FULL_GROUP_BY"
+    networks: 
+      - bl-database
+    volumes: 
+      - ./docker/images/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_DATABASE=app
+      - MYSQL_HOST= bl-mysql
+      - MYSQL_USER=app
+      - MYSQL_PASSWORD=secret
+      - MYSQL_PORT=3306
+    ports:
+      - "33062:3306"
+    tty: true
+
+  bl-phpmyadmin:
+    container_name: bl-phpmyadmin
+    image: corbinu/docker-phpmyadmin
+    networks: 
+      - bl-database
+    ports:
+        - 8681:80
+    environment:
+        MYSQL_USERNAME: app
+        MYSQL_ROOT_PASSWORD: secret
+        MYSQL_PORT_3306_TCP_ADDR: bl-mysql
+    tty: true

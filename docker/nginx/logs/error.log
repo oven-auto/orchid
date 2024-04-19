@@ -1,0 +1,437 @@
+2024/04/04 10:21:34 [notice] 1#1: using the "epoll" event method
+2024/04/04 10:21:34 [notice] 1#1: nginx/1.25.4
+2024/04/04 10:21:34 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/04 10:21:34 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/04 10:21:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/04 10:21:34 [notice] 1#1: start worker processes
+2024/04/04 10:21:34 [notice] 1#1: start worker process 29
+2024/04/04 10:21:34 [notice] 1#1: start worker process 30
+2024/04/04 10:21:34 [notice] 1#1: start worker process 31
+2024/04/04 10:21:34 [notice] 1#1: start worker process 32
+2024/04/04 10:31:42 [warn] 30#30: *12 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.239.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.239.11:9000", host: "localhost:8989"
+2024/04/04 10:31:50 [warn] 30#30: *12 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.16.239.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.239.11:9000", host: "localhost:8989", referrer: "http://localhost:8989/"
+2024/04/04 10:32:47 [warn] 30#30: *12 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.16.239.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.239.11:9000", host: "localhost:8989", referrer: "http://localhost:8989/"
+2024/04/04 10:36:57 [warn] 32#32: *25 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.16.239.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.239.11:9000", host: "localhost:8989", referrer: "http://localhost:8989/"
+2024/04/04 13:26:58 [warn] 29#29: *36 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.16.239.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.239.11:9000", host: "localhost:8989"
+2024/04/04 13:31:56 [warn] 29#29: *38 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.16.239.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.239.11:9000", host: "localhost:8989"
+2024/04/04 13:50:01 [warn] 29#29: *51 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.16.239.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.239.11:9000", host: "localhost:8989"
+2024/04/04 15:07:14 [warn] 29#29: *60 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.16.239.1, server: , request: "POST /set HTTP/1.1", upstream: "fastcgi://172.16.239.11:9000", host: "localhost:8989"
+2024/04/08 12:08:12 [notice] 1#1: using the "epoll" event method
+2024/04/08 12:08:12 [notice] 1#1: nginx/1.25.4
+2024/04/08 12:08:12 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/08 12:08:12 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/08 12:08:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/08 12:08:12 [notice] 1#1: start worker processes
+2024/04/08 12:08:12 [notice] 1#1: start worker process 29
+2024/04/08 12:08:12 [notice] 1#1: start worker process 30
+2024/04/08 12:08:12 [notice] 1#1: start worker process 31
+2024/04/08 12:08:12 [notice] 1#1: start worker process 32
+2024/04/08 12:09:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/08 12:09:32 [notice] 29#29: gracefully shutting down
+2024/04/08 12:09:32 [notice] 29#29: exiting
+2024/04/08 12:09:32 [notice] 29#29: exit
+2024/04/08 12:09:32 [notice] 30#30: gracefully shutting down
+2024/04/08 12:09:32 [notice] 30#30: exiting
+2024/04/08 12:09:32 [notice] 30#30: exit
+2024/04/08 12:09:32 [notice] 31#31: gracefully shutting down
+2024/04/08 12:09:32 [notice] 31#31: exiting
+2024/04/08 12:09:32 [notice] 31#31: exit
+2024/04/08 12:09:32 [notice] 32#32: gracefully shutting down
+2024/04/08 12:09:32 [notice] 32#32: exiting
+2024/04/08 12:09:32 [notice] 32#32: exit
+2024/04/08 12:09:32 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/08 12:09:32 [notice] 1#1: worker process 31 exited with code 0
+2024/04/08 12:09:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/08 12:09:32 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/04/08 12:09:32 [notice] 1#1: worker process 32 exited with code 0
+2024/04/08 12:09:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/08 12:09:32 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/08 12:09:32 [notice] 1#1: worker process 29 exited with code 0
+2024/04/08 12:09:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/08 12:09:32 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/08 12:09:32 [notice] 1#1: worker process 30 exited with code 0
+2024/04/08 12:09:32 [notice] 1#1: exit
+2024/04/08 12:09:48 [notice] 1#1: using the "epoll" event method
+2024/04/08 12:09:48 [notice] 1#1: nginx/1.25.4
+2024/04/08 12:09:48 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/08 12:09:48 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/08 12:09:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/08 12:09:48 [notice] 1#1: start worker processes
+2024/04/08 12:09:48 [notice] 1#1: start worker process 28
+2024/04/08 12:09:48 [notice] 1#1: start worker process 29
+2024/04/08 12:09:48 [notice] 1#1: start worker process 30
+2024/04/08 12:09:48 [notice] 1#1: start worker process 31
+2024/04/08 12:20:56 [warn] 30#30: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/08 12:27:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/08 12:27:47 [notice] 30#30: gracefully shutting down
+2024/04/08 12:27:47 [notice] 28#28: gracefully shutting down
+2024/04/08 12:27:47 [notice] 29#29: gracefully shutting down
+2024/04/08 12:27:47 [notice] 31#31: gracefully shutting down
+2024/04/08 12:27:47 [notice] 28#28: exiting
+2024/04/08 12:27:47 [notice] 30#30: exiting
+2024/04/08 12:27:47 [notice] 30#30: exit
+2024/04/08 12:27:47 [notice] 28#28: exit
+2024/04/08 12:27:47 [notice] 29#29: exiting
+2024/04/08 12:27:47 [notice] 29#29: exit
+2024/04/08 12:27:47 [notice] 31#31: exiting
+2024/04/08 12:27:47 [notice] 31#31: exit
+2024/04/08 12:27:47 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/08 12:27:47 [notice] 1#1: worker process 29 exited with code 0
+2024/04/08 12:27:47 [notice] 1#1: worker process 30 exited with code 0
+2024/04/08 12:27:47 [notice] 1#1: worker process 31 exited with code 0
+2024/04/08 12:27:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/08 12:27:47 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/08 12:27:47 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/04/08 12:27:47 [notice] 1#1: worker process 28 exited with code 0
+2024/04/08 12:27:47 [notice] 1#1: exit
+2024/04/08 12:28:07 [notice] 1#1: using the "epoll" event method
+2024/04/08 12:28:07 [notice] 1#1: nginx/1.25.4
+2024/04/08 12:28:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/08 12:28:07 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/08 12:28:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/08 12:28:07 [notice] 1#1: start worker processes
+2024/04/08 12:28:07 [notice] 1#1: start worker process 28
+2024/04/08 12:28:07 [notice] 1#1: start worker process 29
+2024/04/08 12:28:07 [notice] 1#1: start worker process 30
+2024/04/08 12:28:07 [notice] 1#1: start worker process 31
+2024/04/08 12:29:45 [warn] 28#28: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/08 12:34:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/08 12:34:15 [notice] 29#29: gracefully shutting down
+2024/04/08 12:34:15 [notice] 29#29: exiting
+2024/04/08 12:34:15 [notice] 29#29: exit
+2024/04/08 12:34:15 [notice] 31#31: gracefully shutting down
+2024/04/08 12:34:15 [notice] 31#31: exiting
+2024/04/08 12:34:15 [notice] 31#31: exit
+2024/04/08 12:34:15 [notice] 28#28: gracefully shutting down
+2024/04/08 12:34:15 [notice] 28#28: exiting
+2024/04/08 12:34:15 [notice] 28#28: exit
+2024/04/08 12:34:15 [notice] 30#30: gracefully shutting down
+2024/04/08 12:34:15 [notice] 30#30: exiting
+2024/04/08 12:34:15 [notice] 30#30: exit
+2024/04/08 12:34:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/08 12:34:15 [notice] 1#1: worker process 28 exited with code 0
+2024/04/08 12:34:15 [notice] 1#1: worker process 29 exited with code 0
+2024/04/08 12:34:15 [notice] 1#1: worker process 31 exited with code 0
+2024/04/08 12:34:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/08 12:34:15 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/08 12:34:15 [notice] 1#1: worker process 30 exited with code 0
+2024/04/08 12:34:15 [notice] 1#1: exit
+2024/04/08 12:34:31 [notice] 1#1: using the "epoll" event method
+2024/04/08 12:34:31 [notice] 1#1: nginx/1.25.4
+2024/04/08 12:34:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/08 12:34:31 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/08 12:34:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/08 12:34:31 [notice] 1#1: start worker processes
+2024/04/08 12:34:31 [notice] 1#1: start worker process 28
+2024/04/08 12:34:31 [notice] 1#1: start worker process 29
+2024/04/08 12:34:31 [notice] 1#1: start worker process 30
+2024/04/08 12:34:31 [notice] 1#1: start worker process 31
+2024/04/08 12:56:01 [warn] 31#31: *9 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/08 15:30:55 [warn] 29#29: *45 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/08 15:36:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/08 15:36:00 [notice] 28#28: gracefully shutting down
+2024/04/08 15:36:00 [notice] 31#31: gracefully shutting down
+2024/04/08 15:36:00 [notice] 30#30: gracefully shutting down
+2024/04/08 15:36:00 [notice] 29#29: gracefully shutting down
+2024/04/08 15:36:00 [notice] 29#29: exiting
+2024/04/08 15:36:00 [notice] 30#30: exiting
+2024/04/08 15:36:00 [notice] 29#29: exit
+2024/04/08 15:36:00 [notice] 30#30: exit
+2024/04/08 15:36:00 [notice] 28#28: exiting
+2024/04/08 15:36:00 [notice] 28#28: exit
+2024/04/08 15:36:00 [notice] 31#31: exiting
+2024/04/08 15:36:00 [notice] 31#31: exit
+2024/04/08 15:36:00 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/08 15:36:00 [notice] 1#1: worker process 30 exited with code 0
+2024/04/08 15:36:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/08 15:36:00 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/08 15:36:00 [notice] 1#1: worker process 31 exited with code 0
+2024/04/08 15:36:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/08 15:36:00 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/04/08 15:36:00 [notice] 1#1: worker process 28 exited with code 0
+2024/04/08 15:36:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/08 15:36:00 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/08 15:36:00 [notice] 1#1: worker process 29 exited with code 0
+2024/04/08 15:36:00 [notice] 1#1: exit
+2024/04/08 15:36:47 [notice] 1#1: using the "epoll" event method
+2024/04/08 15:36:47 [notice] 1#1: nginx/1.25.4
+2024/04/08 15:36:47 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/08 15:36:47 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/08 15:36:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/08 15:36:47 [notice] 1#1: start worker processes
+2024/04/08 15:36:47 [notice] 1#1: start worker process 28
+2024/04/08 15:36:47 [notice] 1#1: start worker process 29
+2024/04/08 15:36:47 [notice] 1#1: start worker process 30
+2024/04/08 15:36:47 [notice] 1#1: start worker process 31
+2024/04/08 15:36:51 [warn] 29#29: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/08 17:50:24 [warn] 29#29: *40 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.16.190.1, server: , request: "GET /products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/04/09 16:40:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/09 16:40:47 [notice] 29#29: gracefully shutting down
+2024/04/09 16:40:47 [notice] 31#31: gracefully shutting down
+2024/04/09 16:40:47 [notice] 28#28: gracefully shutting down
+2024/04/09 16:40:47 [notice] 30#30: gracefully shutting down
+2024/04/09 16:40:47 [notice] 29#29: exiting
+2024/04/09 16:40:47 [notice] 28#28: exiting
+2024/04/09 16:40:47 [notice] 31#31: exiting
+2024/04/09 16:40:47 [notice] 31#31: exit
+2024/04/09 16:40:47 [notice] 29#29: exit
+2024/04/09 16:40:47 [notice] 28#28: exit
+2024/04/09 16:40:47 [notice] 30#30: exiting
+2024/04/09 16:40:47 [notice] 30#30: exit
+2024/04/09 16:40:48 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/09 16:40:48 [notice] 1#1: worker process 29 exited with code 0
+2024/04/09 16:40:48 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/09 16:40:48 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/09 16:40:48 [notice] 1#1: worker process 30 exited with code 0
+2024/04/09 16:40:48 [notice] 1#1: worker process 31 exited with code 0
+2024/04/09 16:40:48 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/09 16:40:48 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/09 16:40:48 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/04/09 16:40:48 [notice] 1#1: worker process 28 exited with code 0
+2024/04/09 16:40:48 [notice] 1#1: exit
+2024/04/09 16:41:13 [notice] 1#1: using the "epoll" event method
+2024/04/09 16:41:13 [notice] 1#1: nginx/1.25.4
+2024/04/09 16:41:13 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/09 16:41:13 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/09 16:41:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/09 16:41:13 [notice] 1#1: start worker processes
+2024/04/09 16:41:13 [notice] 1#1: start worker process 27
+2024/04/09 16:41:13 [notice] 1#1: start worker process 28
+2024/04/09 16:41:13 [notice] 1#1: start worker process 29
+2024/04/09 16:41:13 [notice] 1#1: start worker process 30
+2024/04/12 16:17:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/12 16:17:27 [notice] 27#27: gracefully shutting down
+2024/04/12 16:17:27 [notice] 28#28: gracefully shutting down
+2024/04/12 16:17:27 [notice] 29#29: gracefully shutting down
+2024/04/12 16:17:27 [notice] 30#30: gracefully shutting down
+2024/04/12 16:17:27 [notice] 30#30: exiting
+2024/04/12 16:17:27 [notice] 29#29: exiting
+2024/04/12 16:17:27 [notice] 27#27: exiting
+2024/04/12 16:17:27 [notice] 28#28: exiting
+2024/04/12 16:17:27 [notice] 28#28: exit
+2024/04/12 16:17:27 [notice] 30#30: exit
+2024/04/12 16:17:27 [notice] 27#27: exit
+2024/04/12 16:17:27 [notice] 29#29: exit
+2024/04/12 16:17:27 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/12 16:17:27 [notice] 1#1: worker process 30 exited with code 0
+2024/04/12 16:17:27 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/12 16:17:27 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/04/12 16:17:27 [notice] 1#1: worker process 27 exited with code 0
+2024/04/12 16:17:27 [notice] 1#1: worker process 28 exited with code 0
+2024/04/12 16:17:27 [notice] 1#1: worker process 29 exited with code 0
+2024/04/12 16:17:27 [notice] 1#1: exit
+2024/04/16 09:19:26 [notice] 1#1: using the "epoll" event method
+2024/04/16 09:19:26 [notice] 1#1: nginx/1.25.4
+2024/04/16 09:19:26 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/16 09:19:26 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/16 09:19:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/16 09:19:26 [notice] 1#1: start worker processes
+2024/04/16 09:19:26 [notice] 1#1: start worker process 28
+2024/04/16 09:19:26 [notice] 1#1: start worker process 29
+2024/04/16 09:19:26 [notice] 1#1: start worker process 30
+2024/04/16 09:19:26 [notice] 1#1: start worker process 31
+2024/04/16 09:19:37 [warn] 30#30: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/16 09:38:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/16 09:38:06 [notice] 31#31: gracefully shutting down
+2024/04/16 09:38:06 [notice] 31#31: exiting
+2024/04/16 09:38:06 [notice] 31#31: exit
+2024/04/16 09:38:06 [notice] 29#29: gracefully shutting down
+2024/04/16 09:38:06 [notice] 29#29: exiting
+2024/04/16 09:38:06 [notice] 29#29: exit
+2024/04/16 09:38:06 [notice] 28#28: gracefully shutting down
+2024/04/16 09:38:06 [notice] 28#28: exiting
+2024/04/16 09:38:06 [notice] 28#28: exit
+2024/04/16 09:38:06 [notice] 30#30: gracefully shutting down
+2024/04/16 09:38:06 [notice] 30#30: exiting
+2024/04/16 09:38:06 [notice] 30#30: exit
+2024/04/16 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/16 09:38:06 [notice] 1#1: worker process 31 exited with code 0
+2024/04/16 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/16 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/16 09:38:06 [notice] 1#1: worker process 29 exited with code 0
+2024/04/16 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/16 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/04/16 09:38:06 [notice] 1#1: worker process 28 exited with code 0
+2024/04/16 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/16 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/16 09:38:06 [notice] 1#1: worker process 30 exited with code 0
+2024/04/16 09:38:06 [notice] 1#1: exit
+2024/04/16 10:59:58 [notice] 1#1: using the "epoll" event method
+2024/04/16 10:59:58 [notice] 1#1: nginx/1.25.4
+2024/04/16 10:59:58 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/16 10:59:58 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/16 10:59:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/16 10:59:58 [notice] 1#1: start worker processes
+2024/04/16 10:59:58 [notice] 1#1: start worker process 28
+2024/04/16 10:59:58 [notice] 1#1: start worker process 29
+2024/04/16 10:59:58 [notice] 1#1: start worker process 30
+2024/04/16 10:59:58 [notice] 1#1: start worker process 31
+2024/04/16 14:26:19 [warn] 30#30: *5 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.190.1, server: , request: "POST /api/productgroups?name=%D0%9F%D0%B8%D1%86%D1%86%D0%B0 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/16 14:36:24 [warn] 28#28: *21 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.16.190.1, server: , request: "DELETE /api/productgroups/6 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/16 16:34:49 [warn] 29#29: *38 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.16.190.1, server: , request: "POST /api/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/17 09:50:04 [warn] 28#28: *51 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.16.190.1, server: , request: "PATCH /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 09:50:24 [warn] 29#29: *54 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 09:50:51 [warn] 29#29: *54 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 09:51:04 [error] 28#28: *51 upstream timed out (110: Connection timed out) while reading upstream, client: 172.16.190.1, server: , request: "PATCH /api/products/2 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/17 10:06:40 [warn] 28#28: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 10:20:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/17 10:20:49 [notice] 28#28: gracefully shutting down
+2024/04/17 10:20:49 [notice] 29#29: gracefully shutting down
+2024/04/17 10:20:49 [notice] 28#28: exiting
+2024/04/17 10:20:49 [notice] 30#30: gracefully shutting down
+2024/04/17 10:20:49 [notice] 30#30: exiting
+2024/04/17 10:20:49 [notice] 29#29: exiting
+2024/04/17 10:20:49 [notice] 28#28: exit
+2024/04/17 10:20:49 [notice] 29#29: exit
+2024/04/17 10:20:49 [notice] 30#30: exit
+2024/04/17 10:20:49 [notice] 31#31: gracefully shutting down
+2024/04/17 10:20:49 [notice] 31#31: exiting
+2024/04/17 10:20:49 [notice] 31#31: exit
+2024/04/17 10:20:49 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/17 10:20:49 [notice] 1#1: worker process 31 exited with code 0
+2024/04/17 10:20:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/17 10:20:49 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/17 10:20:49 [notice] 1#1: worker process 30 exited with code 0
+2024/04/17 10:20:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/17 10:20:49 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/17 10:20:49 [notice] 1#1: worker process 28 exited with code 0
+2024/04/17 10:20:49 [notice] 1#1: worker process 29 exited with code 0
+2024/04/17 10:20:49 [notice] 1#1: exit
+2024/04/17 10:21:07 [notice] 1#1: using the "epoll" event method
+2024/04/17 10:21:07 [notice] 1#1: nginx/1.25.4
+2024/04/17 10:21:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/17 10:21:07 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/17 10:21:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/17 10:21:07 [notice] 1#1: start worker processes
+2024/04/17 10:21:07 [notice] 1#1: start worker process 28
+2024/04/17 10:21:07 [notice] 1#1: start worker process 29
+2024/04/17 10:21:07 [notice] 1#1: start worker process 30
+2024/04/17 10:21:07 [notice] 1#1: start worker process 31
+2024/04/17 10:21:13 [warn] 30#30: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 10:23:14 [warn] 28#28: *5 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 10:28:48 [warn] 30#30: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 10:28:49 [warn] 30#30: *8 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/17 10:29:53 [warn] 30#30: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 10:30:18 [warn] 30#30: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 10:30:50 [warn] 30#30: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 10:31:06 [warn] 30#30: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 10:32:17 [warn] 30#30: *15 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.16.190.1, server: , request: "POST /api/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 11:21:36 [warn] 30#30: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.16.190.1, server: , request: "GET /api/front/products HTTP/1.1", host: "localhost:8090"
+2024/04/17 11:23:50 [warn] 30#30: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.16.190.1, server: , request: "GET /api/front/products HTTP/1.1", host: "localhost:8090"
+2024/04/17 14:14:21 [warn] 28#28: *296 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/01/0000000012 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/04/17 14:16:29 [warn] 28#28: *317 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.16.190.1, server: , request: "GET /api/front/productgroups HTTP/1.1", host: "localhost:8090"
+2024/04/17 14:56:16 [warn] 30#30: *409 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.16.190.1, server: , request: "POST /api/admin/products HTTP/1.1", host: "localhost:8090"
+2024/04/17 14:56:17 [warn] 30#30: *409 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/01/0000000015 while reading upstream, client: 172.16.190.1, server: , request: "POST /api/admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/17 14:57:09 [warn] 30#30: *409 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.16.190.1, server: , request: "POST /api/admin/products HTTP/1.1", host: "localhost:8090"
+2024/04/17 14:58:56 [warn] 30#30: *422 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.16.190.1, server: , request: "PATCH /api/admin/products/3 HTTP/1.1", host: "localhost:8090"
+2024/04/17 14:59:19 [warn] 30#30: *422 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.16.190.1, server: , request: "POST /api/admin/products/3 HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:00:11 [warn] 30#30: *422 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.16.190.1, server: , request: "POST /api/admin/products/3 HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:00:30 [warn] 30#30: *422 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.16.190.1, server: , request: "POST /api/admin/products/2 HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:00:41 [warn] 30#30: *422 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.16.190.1, server: , request: "POST /api/admin/products/4 HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:02:55 [warn] 29#29: *454 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:03:10 [warn] 29#29: *454 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:03:24 [warn] 29#29: *454 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:14:20 [warn] 29#29: *489 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:14:43 [warn] 29#29: *489 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:16:59 [warn] 28#28: *506 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:17:14 [warn] 28#28: *506 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:17:30 [warn] 28#28: *506 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/17 15:17:46 [warn] 28#28: *506 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.16.190.1, server: , request: "POST /api/admin/products/ HTTP/1.1", host: "localhost:8090"
+2024/04/18 14:22:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/18 14:22:11 [notice] 30#30: gracefully shutting down
+2024/04/18 14:22:11 [notice] 29#29: gracefully shutting down
+2024/04/18 14:22:11 [notice] 28#28: gracefully shutting down
+2024/04/18 14:22:11 [notice] 30#30: exiting
+2024/04/18 14:22:11 [notice] 29#29: exiting
+2024/04/18 14:22:11 [notice] 31#31: gracefully shutting down
+2024/04/18 14:22:11 [notice] 29#29: exit
+2024/04/18 14:22:11 [notice] 30#30: exit
+2024/04/18 14:22:11 [notice] 28#28: exiting
+2024/04/18 14:22:11 [notice] 28#28: exit
+2024/04/18 14:22:11 [notice] 31#31: exiting
+2024/04/18 14:22:11 [notice] 31#31: exit
+2024/04/18 14:22:11 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/18 14:22:11 [notice] 1#1: worker process 28 exited with code 0
+2024/04/18 14:22:11 [notice] 1#1: worker process 29 exited with code 0
+2024/04/18 14:22:11 [notice] 1#1: worker process 31 exited with code 0
+2024/04/18 14:22:11 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/18 14:22:11 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/18 14:22:11 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/18 14:22:11 [notice] 1#1: worker process 30 exited with code 0
+2024/04/18 14:22:11 [notice] 1#1: exit
+2024/04/19 08:09:45 [notice] 1#1: using the "epoll" event method
+2024/04/19 08:09:45 [notice] 1#1: nginx/1.25.4
+2024/04/19 08:09:45 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/19 08:09:45 [notice] 1#1: OS: Linux 6.1.0-17-amd64
+2024/04/19 08:09:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/19 08:09:45 [notice] 1#1: start worker processes
+2024/04/19 08:09:45 [notice] 1#1: start worker process 28
+2024/04/19 08:09:45 [notice] 1#1: start worker process 29
+2024/04/19 08:09:45 [notice] 1#1: start worker process 30
+2024/04/19 08:09:45 [notice] 1#1: start worker process 31
+2024/04/19 08:13:35 [warn] 28#28: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 08:24:53 [warn] 28#28: *39 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 08:31:29 [warn] 28#28: *67 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/04/19 09:20:39 [warn] 29#29: *180 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 10:57:57 [warn] 30#30: *362 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 10:58:29 [warn] 30#30: *362 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 12:05:31 [warn] 31#31: *526 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product/9 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 12:26:01 [warn] 28#28: *600 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 12:41:30 [warn] 28#28: *600 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.16.190.1, server: , request: "POST /admin/product/7/backToList HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/7"
+2024/04/19 12:48:08 [warn] 28#28: *600 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/01/0000000010 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 12:49:46 [warn] 28#28: *600 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 12:56:00 [warn] 28#28: *708 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/examples/form/advanced"
+2024/04/19 12:56:18 [warn] 28#28: *708 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/examples/form/advanced"
+2024/04/19 12:56:58 [warn] 28#28: *708 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/examples/form/advanced"
+2024/04/19 12:57:14 [warn] 28#28: *708 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/examples/form/advanced"
+2024/04/19 14:33:59 [warn] 28#28: *893 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/01/0000000016 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 14:39:12 [warn] 28#28: *893 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product"
+2024/04/19 14:44:51 [warn] 28#28: *993 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product"
+2024/04/19 14:46:41 [warn] 28#28: *993 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/17"
+2024/04/19 14:48:12 [warn] 28#28: *1019 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/17"
+2024/04/19 14:48:24 [warn] 28#28: *1019 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/17"
+2024/04/19 14:49:52 [warn] 28#28: *1019 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/17"
+2024/04/19 14:50:14 [warn] 28#28: *1019 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/17"
+2024/04/19 14:50:37 [warn] 28#28: *1042 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/17"
+2024/04/19 14:51:44 [warn] 28#28: *1045 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/17"
+2024/04/19 14:53:55 [error] 28#28: *1052 client intended to send too large body: 19847813 bytes, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product"
+2024/04/19 14:54:12 [warn] 28#28: *1060 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product"
+2024/04/19 14:54:39 [warn] 28#28: *1060 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 14:54:51 [warn] 28#28: *1060 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 14:55:37 [warn] 28#28: *1060 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 14:56:54 [warn] 28#28: *1060 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 14:58:06 [warn] 28#28: *1060 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/03/0000000031 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product/18 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 15:06:07 [warn] 29#29: *1142 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 15:08:05 [warn] 29#29: *1142 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 15:08:44 [warn] 29#29: *1142 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 15:10:05 [warn] 29#29: *1158 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 15:10:56 [warn] 29#29: *1158 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 15:11:57 [warn] 29#29: *1158 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/18"
+2024/04/19 15:14:03 [warn] 29#29: *1187 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/2"
+2024/04/19 15:14:39 [warn] 29#29: *1206 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/3"
+2024/04/19 15:15:08 [warn] 29#29: *1211 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/4"
+2024/04/19 15:15:33 [warn] 30#30: *1234 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/5"
+2024/04/19 15:15:59 [warn] 30#30: *1247 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/6"
+2024/04/19 15:16:25 [warn] 30#30: *1262 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/7"
+2024/04/19 15:25:45 [warn] 30#30: *1335 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/04/0000000044 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/example"
+2024/04/19 15:26:33 [warn] 30#30: *1335 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/04/0000000045 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090"
+2024/04/19 15:33:04 [warn] 30#30: *1362 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/8"
+2024/04/19 15:33:18 [warn] 31#31: *1442 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/9"
+2024/04/19 15:33:43 [warn] 31#31: *1389 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000048, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/10"
+2024/04/19 15:33:53 [warn] 30#30: *1422 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000049, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/11"
+2024/04/19 15:34:06 [warn] 31#31: *1434 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000050, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/12"
+2024/04/19 15:34:17 [warn] 31#31: *1511 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000051, client: 172.16.190.1, server: , request: "POST /admin/systems/files HTTP/1.1", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/13"
+2024/04/19 16:33:56 [warn] 28#28: *1691 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/05/0000000052 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product/2 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/2"
+2024/04/19 16:33:57 [warn] 28#28: *1691 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/05/0000000053 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/04/19 16:34:24 [warn] 28#28: *1691 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/05/0000000054 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/2"
+2024/04/19 16:35:20 [warn] 29#29: *1722 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/05/0000000055 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/2"
+2024/04/19 16:35:32 [warn] 29#29: *1722 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/05/0000000056 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/products"
+2024/04/19 16:36:46 [warn] 28#28: *1718 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/05/0000000057 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product/2 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/products"
+2024/04/19 16:36:47 [warn] 28#28: *1720 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/05/0000000058 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product/2 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/products"
+2024/04/19 16:37:02 [warn] 28#28: *1718 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/05/0000000059 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product/2 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/2"
+2024/04/19 16:42:19 [warn] 29#29: *1813 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/06/0000000060 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product/2 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/products"
+2024/04/19 16:42:31 [warn] 29#29: *1813 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/06/0000000061 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product/2 HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/2"
+2024/04/19 16:50:14 [warn] 29#29: *1908 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/06/0000000062 while reading upstream, client: 172.16.190.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/"
+2024/04/19 16:50:48 [warn] 29#29: *1915 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/06/0000000063 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/main HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/product/2"
+2024/04/19 16:58:39 [warn] 30#30: *1985 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/06/0000000064 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/product HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/products"
+2024/04/19 17:03:57 [warn] 30#30: *2117 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/06/0000000065 while reading upstream, client: 172.16.190.1, server: , request: "GET /admin/products HTTP/1.1", upstream: "fastcgi://172.16.190.11:9000", host: "localhost:8090", referrer: "http://localhost:8090/admin/product"
